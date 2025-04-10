@@ -1,0 +1,2 @@
+# hm_google_lang_translator_js
+別リポジトリへ
