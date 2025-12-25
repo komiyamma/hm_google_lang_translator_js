@@ -1,4 +1,4 @@
-﻿// HmGoogleLangTranslator.mac v2.0.0.1
+﻿// HmGoogleLangTranslator.mac v2.0.0.2
 // Copyright (c) 2023-2025 Akitsugu Komiyama
 // under the MIT License
 
@@ -7,7 +7,6 @@ hidemaruversion "9.35.99";
 jsmode @"WebView2\HmGoogleLangTranslator";
 
 js {
-debuginfo(2);
 
 // 環境変数から、Google Apps Script の翻訳APIへのURLアドレスを取得。
 let endpoint_url = getenv("GOOGLE_SCRIPT_TRANSLATION_API");
